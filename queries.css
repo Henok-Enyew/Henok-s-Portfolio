@@ -1,0 +1,250 @@
+@media (max-width: 70em) {
+  html {
+    font-size: 50%;
+  }
+  .footer-content {
+    bottom: -45%;
+    left: 30%;
+  }
+}
+
+@media (max-width: 56em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 46em) {
+  .nav-btns {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #e2dafae1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+    font-size: 4.4rem;
+    transition: all 0.4s;
+    transform: translateX(100%);
+  }
+
+  .mobile-nav-btn {
+    z-index: 9999;
+    display: block;
+  }
+  .hero {
+    padding-top: 9rem;
+    flex-direction: column;
+    row-gap: 4.8rem;
+    width: 100%;
+    padding: 3rem;
+    height: auto;
+    position: relative;
+  }
+
+  .hero-illustration svg {
+    width: 40rem;
+    height: auto;
+  }
+
+  .hero-illustration:after {
+    content: "";
+    position: absolute;
+    bottom: -3.5rem;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    clip-path: polygon(0 60%, 100% 100%, 0 100%);
+    /* clip-path: polygon(100% 60%, 0 100%, 100% 100%); */
+  }
+
+  .hero-text {
+    width: 79%;
+  }
+
+  .hero-text .greeting {
+    font-size: 4.4rem;
+  }
+
+  .hero-text .career {
+    font-size: 3.6rem;
+  }
+
+  .hero:before {
+    display: none;
+    /* bottom: -1rem; */
+    /* clip-path: none; */
+    /* height: 30rem; */
+  }
+  .social-medias a svg {
+    width: 3.2rem;
+  }
+  .projects {
+    padding: 3rem 6rem;
+  }
+  .project-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .gafat-img {
+    grid-row: 1;
+  }
+  .cta {
+    padding: 2rem 4rem;
+  }
+  .form-container {
+    padding: 2rem 3rem;
+  }
+  .form-container img {
+    width: 30rem;
+  }
+  .footer-content {
+    bottom: -45%;
+    left: 30%;
+  }
+  footer {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .about-detail {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero {
+    padding: 6rem 1.6rem;
+  }
+  .hero-text {
+    width: 85%;
+  }
+  .hero-text .detail {
+    font-size: 2.4rem;
+  }
+  .hero-text .greeting {
+    font-size: 4.4rem;
+  }
+
+  .hero-text .career {
+    font-size: 3.8rem;
+  }
+
+  .hero a {
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 2rem 4rem;
+  }
+  .tech-stack {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .tech-stack-icons svg {
+    width: 3.6rem;
+  }
+
+  .henok-photo {
+    margin-bottom: 2.4rem;
+  }
+
+  .basic-details {
+    margin-bottom: 4rem;
+  }
+  .basic-title,
+  .basic-text {
+    font-size: 2.4rem;
+  }
+
+  .basic-details div div {
+    height: 5.6rem;
+    width: 5.6rem;
+  }
+  .brief-bio,
+  .educational-detail {
+    font-size: 2rem;
+  }
+  .project-img {
+    width: 40rem;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+  }
+  .project-description a {
+    padding: 1.8rem 3rem;
+    font-size: 2rem;
+  }
+  .project-detail {
+    font-size: 2rem;
+    /* margin-bottom: 2.4rem; */
+  }
+  .project-title {
+    font-size: 2.4rem;
+  }
+
+  .about-header,
+  .projects-header,
+  .cta-header {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .form-container {
+    display: block;
+  }
+  form {
+    width: auto;
+  }
+  form input,
+  form textarea {
+    font-size: 2.2rem;
+  }
+  .form-container img {
+    display: none;
+  }
+
+  .btn-submit {
+    padding: 2rem 4rem;
+    font-size: 2rem;
+  }
+  footer {
+    height: 20rem;
+  }
+
+  .weavy {
+    height: 20rem;
+  }
+  .footer-content {
+    bottom: -40%;
+    left: 20%;
+    font-size: 2rem;
+  }
+  .footer-socials {
+    margin-left: 5rem;
+  }
+  .social-medias {
+    left: 90%;
+    right: 1rem;
+  }
+  .social-medias a svg {
+    width: 4rem;
+  }
+}
+/*
+Spacing 
+    2/4/8/12/16/24/32/48/64/80/96/128
+Font sizes
+    10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
+    */
+    echo "# henok" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/Henok-Enyew/henok.git
+    git push -u origin main
