@@ -14,6 +14,12 @@
   }
 }
 
+@media (min-width: 56em) {
+  .hero-illustration {
+    animation: slideRight forwards 1s;
+  }
+}
+
 @media (max-width: 46em) {
   .nav-btns {
     position: absolute;
@@ -121,10 +127,10 @@
     justify-content: center;
   }
   .hero {
-    padding: 6rem 1.6rem;
+    padding: 12.8rem 1.6rem 6rem 1.6rem;
   }
   .hero-text {
-    width: 85%;
+    width: 95%;
   }
   .hero-text .detail {
     font-size: 2.4rem;
@@ -140,7 +146,7 @@
   .hero a {
     margin-top: 2rem;
     font-size: 2rem;
-    padding: 2rem 4rem;
+    padding: 2.4rem 5rem;
   }
   .tech-stack {
     font-size: 2rem;
@@ -170,6 +176,13 @@
   .brief-bio,
   .educational-detail {
     font-size: 2rem;
+  }
+
+  .projects {
+    padding: 3rem 2rem;
+  }
+  .cta {
+    padding: 2rem 2rem;
   }
   .project-img {
     width: 40rem;
@@ -241,10 +254,10 @@ Spacing
 Font sizes
     10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
     */
-    echo "# henok" >> README.md
+/* echo "# henok" >> README.md
     git init
     git add README.md
     git commit -m "first commit"
     git branch -M main
     git remote add origin https://github.com/Henok-Enyew/henok.git
-    git push -u origin main
+    git push -u origin main */
