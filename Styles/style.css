@@ -76,12 +76,13 @@ section {
   align-items: center;
   column-gap: 2.4rem;
   font-size: 1.8rem;
+  transition: all 0.4s;
 }
 
 .nav-btn:link {
   text-decoration: none;
   color: var(--white-mode-color);
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .nav-btn:hover {
@@ -92,9 +93,9 @@ section {
 }
 
 .nav-btn-active {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   padding-bottom: 0.5px;
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-color) !important;
   transform: scale(1.15);
 }
 
@@ -346,7 +347,8 @@ section {
 }
 
 .basic-text {
-  font-size: 1.6rem;
+  font-weight: 600;
+  font-size: 1.8rem;
   color: var(--primary-color);
 }
 
@@ -368,7 +370,7 @@ section {
 
 .about-detail {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .border-left {
