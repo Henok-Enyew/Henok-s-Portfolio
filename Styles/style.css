@@ -272,7 +272,7 @@ section {
 @keyframes slideLeft {
   0% {
     transform: translateX(-50%);
-    opacity: 0.6;
+    opacity: 0.2;
   }
   100% {
     transform: translateX(0%);
