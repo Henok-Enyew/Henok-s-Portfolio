@@ -548,6 +548,16 @@ footer {
   fill: #f3f3f3;
   transform: scale(1.2);
 }
+
+.techs {
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  color: var(--primary-color);
+  margin-left: 32px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
 /* 
 Spacing 
     2/4/8/12/16/24/32/48/64/80/96/128
